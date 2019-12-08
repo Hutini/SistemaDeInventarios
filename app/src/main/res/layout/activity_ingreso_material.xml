@@ -1,5 +1,4 @@
-<LinearLayout xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="match_parent"
+<LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -14,23 +13,40 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
-        android:layout_marginTop="200dp"
-        android:hint="Ingresar Usuario"
-        tools:ignore="Suspicious0dp" />
+        android:layout_marginTop="50dp"
+        android:hint="Código"
+        android:id="@+id/codigo"
+        />
 
     <EditText
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="50dp"
-        android:hint="Ingresar Contaseña"/>
+        android:hint="Cantidad"
+        android:id="@+id/cantidad"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:hint="Lugar"
+        android:id="@+id/lugar"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:hint="Funcionario"
+        android:id="@+id/funcionario"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
-        android:text="Iniciar Sesión"
-        android:id="@+id/btnIniciarSesion"/>
+        android:text="Registrar Salida"
+        android:id="@+id/registrarSalida"/>
 
 </LinearLayout>
