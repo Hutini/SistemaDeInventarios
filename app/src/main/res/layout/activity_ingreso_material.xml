@@ -33,20 +33,13 @@
         android:layout_marginTop="50dp"
         android:hint="Lugar"
         android:id="@+id/lugar"/>
-    <EditText
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="50dp"
-        android:hint="Funcionario"
-        android:id="@+id/funcionario"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
-        android:text="Registrar Salida"
+        android:text="Registrar Ingreso"
         android:id="@+id/registrarSalida"/>
 
 </LinearLayout>
